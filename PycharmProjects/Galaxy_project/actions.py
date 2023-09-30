@@ -1,3 +1,6 @@
+from kivy.uix.relativelayout import RelativeLayout
+
+
 def on_keyboard_down(self, keyboard, keycode, text, modifiers):
     if keycode[1] == 'h':
         self.current_speed_x = self.SPEED_X
@@ -12,10 +15,13 @@ def on_keyboard_up(self, keyboard, keycode):
 
 
 def on_touch_down(self, touch):
-    if touch.x < self.width / 2:
-        self.current_speed_x = self.SPEED_X
-    else:
-        self.current_speed_x = - self.SPEED_X
+    if not self.game_over_state and self.game_has_started_state:
+        if touch.x < self.width / 2:
+            self.current_speed_x = self.SPEED_X
+        else:
+            self.current_speed_x = - self.SPEED_X
+
+    return super(RelativeLayout, self).on_touch_down(touch)
 
 
 def on_touch_up(self, touch):
