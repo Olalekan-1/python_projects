@@ -1,7 +1,7 @@
 def on_keyboard_down(self, keyboard, keycode, text, modifiers):
-    if keycode[1] == 'l':
+    if keycode[1] == 'h':
         self.current_speed_x = self.SPEED_X
-    elif keycode[1] == 'h':
+    elif keycode[1] == 'l':
         self.current_speed_x = - self.SPEED_X
     return True
 
