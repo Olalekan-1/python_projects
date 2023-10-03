@@ -329,7 +329,7 @@ class MainWidget(RelativeLayout):
 
 
 class GalaxyApp(App):
-    pass
-
+    def Build(self):
+        return MainWidget()
 
 GalaxyApp().run()

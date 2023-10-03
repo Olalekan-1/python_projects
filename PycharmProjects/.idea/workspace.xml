@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="958af86b-316a-4480-acc3-031c5b670ab4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Galaxy_project/menu.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Galaxy_project/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Galaxy_project/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Galaxy_project/actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Galaxy_project/galaxy.kv" beforeDir="false" afterPath="$PROJECT_DIR$/Galaxy_project/galaxy.kv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Galaxy_project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Galaxy_project/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
